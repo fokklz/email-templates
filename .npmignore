@@ -1,0 +1,13 @@
+# Ignores TypeScript files, but keeps definitions.
+*.ts
+!*.d.ts
+
+# remove all env files
+.env
+.env.*
+
+# remove github folder (github script: https://github.com/fokklz/helpers/blob/main/dist/github.js)
+github
+
+# remove gitlab ci/cd if coppied
+.gitlab-ci.yml
